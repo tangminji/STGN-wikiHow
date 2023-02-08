@@ -1,6 +1,6 @@
 # STGN Experiments on wikiHow
 ## Data: wikiHow
-Data Source: "Reasoning about Goals, Steps, and Temporal Ordering with WikiHow" (Zhang, EMNLP2020) [github](https://github.com/zharry29/wikihow-goal-step)
+Data Source: ["Reasoning about Goals, Steps, and Temporal Ordering with WikiHow"](https://github.com/zharry29/wikihow-goal-step) (Zhang, EMNLP2020)
 
 You should extract the wikihow data to `dataset/wikihow` according to the instruction of "https://github.com/zharry29/wikihow-goal-step/blob/master/wikihow_train_eval_code.ipynb".
 
@@ -43,6 +43,9 @@ do
     --out_tmp out_tmp_{task}_{method}.json
 done
 ```
+
+Options:
 + task: GOAL, STEP, ORDER
 + method: base, STGN
-You should run the tm_train_hy_nruns.py with proper params which written in json files.
+
+You should run the tm_train_hy_nruns.py with proper params written in json files.

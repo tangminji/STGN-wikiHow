@@ -1,6 +1,11 @@
-# STGN Experiments on wikiHow
+# STGN Experiment on wikiHow
+
+Sub-experiment of ["STGN: an Implicit Regularization Method for Learning with Noisy Labels in Natural Language Processing"](https://aclanthology.org/2022.emnlp-main.515/) (EMNLP 2022) by Tingting Wu, Xiao Ding, Minji Tang, Hao Zhang, Bing Qin, Ting Liu.
+
+Main experiment: [github](https://github.com/tangminji/STGN-sst)
+
 ## Data: wikiHow
-Data Source: ["Reasoning about Goals, Steps, and Temporal Ordering with WikiHow"](https://github.com/zharry29/wikihow-goal-step) (Zhang, EMNLP2020)
+Data Source: ["Reasoning about Goals, Steps, and Temporal Ordering with WikiHow"](https://github.com/zharry29/wikihow-goal-step) (EMNLP2020) by Zhang
 
 You should extract the wikihow data to `dataset/wikihow` according to the instruction of "https://github.com/zharry29/wikihow-goal-step/blob/master/wikihow_train_eval_code.ipynb".
 
